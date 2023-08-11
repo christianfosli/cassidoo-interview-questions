@@ -1,0 +1,15 @@
+[package]
+name = "luhn-check"
+version = "0.1.0"
+edition = "2021"
+description = """
+Implement the Luhn algorithm to validate a credit card number. Bonus points if you can identify what brand of credit card the user inputted!
+"""
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = {version = "0.11", features = ["json"]}
+serde = "1"
+serde_json = "1.0.104"
+tokio = {version = "1", features = ["full"]}
