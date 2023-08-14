@@ -1,1 +1,7 @@
+# Rust compilation artifacts
 */target
+# Csharp compilation artifacts
+*/bin
+*/obj
+
+*/.vscode
